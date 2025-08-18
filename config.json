@@ -1,0 +1,36 @@
+{
+    "voice_settings": {
+        "enabled": true,
+        "language": "hi-IN",
+        "speech_rate": 150,
+        "volume": 0.8
+    },
+    "monitoring_settings": {
+        "cpu_threshold": 80.0,
+        "memory_threshold": 85.0,
+        "disk_threshold": 90.0,
+        "check_interval": 5
+    },
+    "automation_settings": {
+        "auto_optimize": true,
+        "auto_cleanup": true,
+        "auto_power_save": true,
+        "idle_timeout": 300
+    },
+    "system_settings": {
+        "startup_enabled": false,
+        "minimize_to_tray": true,
+        "log_level": "INFO",
+        "max_log_size": 1000
+    },
+    "voice_commands": {
+        "hindi": {
+            "cpu": ["cpu", "processor", "प्रोसेसर"],
+            "memory": ["memory", "ram", "मेमोरी"],
+            "disk": ["disk", "storage", "डिस्क"],
+            "optimize": ["optimize", "performance", "ऑप्टिमाइज़"],
+            "status": ["status", "condition", "स्थिति"],
+            "help": ["help", "help", "मदद"]
+        }
+    }
+}
