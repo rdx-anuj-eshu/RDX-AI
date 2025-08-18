@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AI Assistant
+Name[hi]=AI सहायक
+Comment=Self Dependent PC Manager
+Comment[hi]=स्व-निर्भर PC प्रबंधक
+Exec=/workspace/launch.sh
+Icon=system-run
+Terminal=true
+Categories=System;Utility;AI;
+Keywords=AI;Assistant;PC;Manager;Voice;System;
+StartupNotify=true
